@@ -1,5 +1,5 @@
 module ModelGenerator
-  class TransactionLog < inherit_orm
+  class TransactionLogBase < inherit_orm
 
     def status
       return 'PROCESSED' if response
